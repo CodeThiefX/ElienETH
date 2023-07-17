@@ -1,0 +1,80 @@
+    body{
+        margin: 0px;
+    }
+    @font-face{
+        font-family: 'Alien';
+        src: url('../font/Alliens.ttf');
+    }
+    @font-face{
+        font-family: 'Quirky';
+        src: url('../font/QuirkyRobot.ttf');
+    }
+    .parallax-1 {
+        /* The image used */
+        background-image: url("../image/bg1.JPG");
+
+        /* Set a specific height */
+        min-height: 100vh;
+
+        /* Create the parallax scrolling effect */
+        background-attachment: fixed;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    .parallax-2 {
+        /* The image used */
+        background: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url(../image/bg2.PNG); 
+    
+        /* Set a specific height */
+        min-height: 100vh;
+    
+        /* Create the parallax scrolling effect */
+        background-attachment: fixed;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    .parallax-3 {
+        /* The image used */
+        background: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url(../image/bg3.PNG); 
+    
+        /* Set a specific height */
+        min-height: 100vh;
+    
+        /* Create the parallax scrolling effect */
+        background-attachment: fixed;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    .title{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+    .title-text{
+        font-size: 10vw;
+        font-family: Alien;
+    }
+    .mini-title{
+        font-size: 5vw;
+        font-family: Quirky;
+    }
+    .story{
+        width:75vw;
+        text-align: center;
+        font-family: Quirky;
+        font-size: 5vw;
+        color: rgb(218, 218, 218);
+    }
+    .band{
+        background-color: black;
+    }
+    .logo{
+        width: 50vw;
+    }
+    .elien{
+        color: rgb(175, 17, 175);
+    }
